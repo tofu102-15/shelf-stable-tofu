@@ -36,8 +36,22 @@ document.querySelectorAll("#global-nav a").forEach(link => {
   });
 });
 
-document.querySelector("[data-demo-form]")?.addEventListener("submit", event => {
+document.querySelector("[data-contact-form]")?.addEventListener("submit", event => {
   event.preventDefault();
+  const form = event.currentTarget;
+  const data = new FormData(form);
+  const subject = `【常温保存豆腐.com】${data.get("type")}`;
+  const body = [
+    "常温保存豆腐.comへのお問い合わせ",
+    "",
+    `お名前：${data.get("name")}`,
+    `返信先：${data.get("email")}`,
+    `種別：${data.get("type")}`,
+    "",
+    "お問い合わせ内容：",
+    data.get("message")
+  ].join("\n");
   const message = document.querySelector(".form-message");
-  if (message) message.textContent = "試作版のため、メールアドレスは送信されません。";
+  if (message) message.textContent = "メール作成画面を開いています。内容を確認して送信してください。";
+  window.location.href = `mailto:tofu102.15@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 });
