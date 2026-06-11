@@ -11,8 +11,8 @@ window.PRODUCTS = [
       "楽天掲載価格：1,920円・送料無料",
       "Amazon掲載価格：1,946円・送料無料",
       "内容量：253g×12個",
-      "発売日：2016年3月1日",
-      "保存方法：常温保存可"
+      "原材料：丸大豆（アメリカ、カナダ）、大豆たんぱく質／凝固剤",
+      "賞味期限・保存：製造日より約4～5か月・常温保存"
     ],
     imageUrl: "https://hbb.afl.rakuten.co.jp/hgb/54ca5c43.5ae49a00.54ca5c44.8c31f8b5/?me_id=1261568&item_id=10003087&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fkenkouya-webshop%2Fcabinet%2Fpassco%2F07016566%2Fimgrc0101238771.jpg%3F_ex%3D240x240&s=240x240&t=pict",
     imageLink: "https://hb.afl.rakuten.co.jp/ichiba/54ca5c43.5ae49a00.54ca5c44.8c31f8b5/_RTLink135507?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenkouya-webshop%2F031030%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
@@ -35,12 +35,10 @@ window.PRODUCTS = [
     description: "国産大豆100％、四国の水、にがり100％にこだわった常温保存可能な豆腐。素材のおいしさを生かした絹ごし風の12個セットです。",
     points: [
       "楽天掲載価格：2,200円・送料無料",
-      "内容量：300g×12個（総重量3,600g）",
-      "原産国／製造国：日本",
-      "産地：徳島県",
+      "Amazon掲載価格：商品ページで確認",
+      "内容量：300g×12個",
       "原材料：大豆（国産）／凝固剤（塩化マグネシウム）",
-      "アレルギー物質：大豆",
-      "商品番号：sr-313"
+      "賞味期限・保存：製造日から157日間・常温保存"
     ],
     imageUrl: "https://hbb.afl.rakuten.co.jp/hgb/54ccf095.cf576e2f.54ccf096.9b1ae275/?me_id=1401439&item_id=10000328&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fgourmetadventure%2Fcabinet%2Fzuttooishii1.jpg%3F_ex%3D240x240&s=240x240&t=pict",
     imageLink: "https://hb.afl.rakuten.co.jp/ichiba/54ccf095.cf576e2f.54ccf096.9b1ae275/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgourmetadventure%2Fsr-313%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
@@ -63,11 +61,10 @@ window.PRODUCTS = [
     description: "国産大豆とにがりを使用した常温保存豆腐。製造日を含め180日間保存でき、日常のまとめ買いや備蓄に使いやすい12個セットです。",
     points: [
       "楽天掲載価格：2,600円・送料無料",
-      "内容量：300g×12個（総重量3,600g）",
-      "原産国／製造国：日本",
+      "Amazon掲載価格：販売なし",
+      "内容量：300g×12個",
       "原材料：大豆（国産）／凝固剤（塩化マグネシウム）",
-      "製造者：四国化工機株式会社",
-      "開封後：要冷蔵10℃以下"
+      "賞味期限・保存：製造日含む180日間・開封後要冷蔵"
     ],
     imageUrl: "https://hbb.afl.rakuten.co.jp/hgb/54cd121f.8a1aa21c.54cd1220.ce25198d/?me_id=1315222&item_id=10000614&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fdailymeg%2Fcabinet%2F04606642%2Fimgrc0088040211.jpg%3F_ex%3D240x240&s=240x240&t=pict",
     imageLink: "https://hb.afl.rakuten.co.jp/ichiba/54cd121f.8a1aa21c.54cd1220.ce25198d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdailymeg%2F100000320%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
