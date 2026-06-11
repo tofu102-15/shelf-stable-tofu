@@ -44,11 +44,23 @@ window.PRODUCTS = [
     updated: "価格・商品仕様は2026年6月11日確認"
   },
   {
-    label: "まとめ買い",
-    name: "食べ切りサイズ",
-    description: "一人暮らしや仕送り用に、容量と箱の大きさで選びたい方向け。",
-    points: ["1個単価：確認後に掲載", "入数：確認後に掲載"],
-    url: "#shopping",
-    store: "購入先を準備中"
+    label: "賞味期限180日",
+    name: "雪印メグミルク 雪とうふ 300g×12個",
+    description: "国産大豆とにがりを使用した常温保存豆腐。製造日を含め180日間保存でき、日常のまとめ買いや備蓄に使いやすい12個セットです。",
+    points: [
+      "楽天掲載価格：2,600円・送料無料",
+      "内容量：300g×12個（総重量3,600g）",
+      "原産国／製造国：日本",
+      "原材料：大豆（国産）／凝固剤（塩化マグネシウム）",
+      "製造者：四国化工機株式会社",
+      "開封後：要冷蔵10℃以下"
+    ],
+    imageUrl: "https://hbb.afl.rakuten.co.jp/hgb/54cd121f.8a1aa21c.54cd1220.ce25198d/?me_id=1315222&item_id=10000614&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fdailymeg%2Fcabinet%2F04606642%2Fimgrc0088040211.jpg%3F_ex%3D240x240&s=240x240&t=pict",
+    imageLink: "https://hb.afl.rakuten.co.jp/ichiba/54cd121f.8a1aa21c.54cd1220.ce25198d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdailymeg%2F100000320%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+    imageAlt: "雪印メグミルク 雪とうふ 300g 12個セット",
+    url: "https://hb.afl.rakuten.co.jp/ichiba/54cd121f.8a1aa21c.54cd1220.ce25198d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdailymeg%2F100000320%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+    sourceUrl: "https://item.rakuten.co.jp/dailymeg/100000320/",
+    store: "楽天市場で価格を見る",
+    updated: "価格・商品仕様は2026年6月11日確認"
   }
 ];
