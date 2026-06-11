@@ -65,7 +65,13 @@ button, input { font: inherit; }
 .section { max-width: 1168px; margin: 0 auto; padding: 110px 0; }
 .intro { display: grid; grid-template-columns: 1fr 1.4fr; gap: 100px; align-items: start; }
 .intro h2, .section-heading h2, .contact h2 { margin: 0; font-family: var(--serif); font-size: clamp(32px, 3.4vw, 48px); line-height: 1.5; }
-.intro-body > p { margin: 8px 0 38px; color: var(--muted); font-size: 16px; }
+.intro-body > p { margin: 8px 0 24px; color: var(--muted); font-size: 16px; }
+.intro-article-link { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 34px; padding: 18px 20px; border: 1px solid var(--line); background: #faf8f1; transition: border-color .2s, background .2s; }
+.intro-article-link small { display: block; margin-bottom: 3px; color: var(--green); font-size: 10px; font-weight: 700; letter-spacing: .08em; }
+.intro-article-link strong { font-family: var(--serif); font-size: 16px; line-height: 1.6; }
+.intro-article-link > b { flex: 0 0 auto; color: var(--soy); font-size: 22px; font-weight: 400; transition: transform .2s; }
+.intro-article-link:hover { border-color: var(--green); background: #f4f7f2; }
+.intro-article-link:hover > b { transform: translateX(4px); }
 .feature-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
 .feature-list span { padding: 18px 12px; border-top: 1px solid var(--line); font-size: 13px; font-weight: 600; }
 .feature-list b { display: block; margin-bottom: 8px; color: var(--soy); font-size: 11px; }
