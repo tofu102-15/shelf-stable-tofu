@@ -9,11 +9,10 @@ window.PRODUCTS = [
     description: "常温でストックでき、鍋料理など毎日の料理や災害時の備蓄にも使いやすい、しっかり食感の12個セットです。",
     points: [
       "楽天掲載価格：1,920円・送料無料",
+      "Amazon掲載価格：1,946円・送料無料",
       "内容量：253g×12個",
       "発売日：2016年3月1日",
-      "保存方法：常温保存可",
-      "JAN：4902720144049",
-      "商品番号：031030"
+      "保存方法：常温保存可"
     ],
     imageUrl: "https://hbb.afl.rakuten.co.jp/hgb/54ca5c43.5ae49a00.54ca5c44.8c31f8b5/?me_id=1261568&item_id=10003087&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fkenkouya-webshop%2Fcabinet%2Fpassco%2F07016566%2Fimgrc0101238771.jpg%3F_ex%3D240x240&s=240x240&t=pict",
     imageLink: "https://hb.afl.rakuten.co.jp/ichiba/54ca5c43.5ae49a00.54ca5c44.8c31f8b5/_RTLink135507?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenkouya-webshop%2F031030%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
@@ -28,7 +27,7 @@ window.PRODUCTS = [
         className: "amazon"
       }
     ],
-    updated: "価格・評価は2026年6月11日確認"
+    updated: "価格・商品仕様は2026年6月11日確認"
   },
   {
     label: "国産大豆100％",
