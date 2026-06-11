@@ -23,12 +23,25 @@ window.PRODUCTS = [
     updated: "価格・評価は2026年6月11日確認"
   },
   {
-    label: "日常使い",
-    name: "なめらか食感タイプ",
-    description: "冷ややっこや毎日の料理で、食感を重視したい方向け。",
-    points: ["実食評価：準備中", "価格比較：準備中"],
-    url: "#shopping",
-    store: "購入先を準備中"
+    label: "まとめ買い",
+    name: "さとの雪 ずっとおいしい豆腐 絹ごし風 300g×12個",
+    description: "素材のおいしさをぎゅっと閉じ込めた、常温で長期保存可能な豆腐。日常使いとローリングストックの両方に便利な12個セットです。",
+    points: [
+      "楽天掲載価格：2,200円・送料無料",
+      "内容量：300g×12個（総重量3,600g）",
+      "原産国／製造国：日本",
+      "産地：徳島県",
+      "原材料：大豆（国産）／凝固剤（塩化マグネシウム）",
+      "アレルギー物質：大豆",
+      "商品番号：sr-313"
+    ],
+    imageUrl: "https://hbb.afl.rakuten.co.jp/hgb/54ccf095.cf576e2f.54ccf096.9b1ae275/?me_id=1401439&item_id=10000328&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fgourmetadventure%2Fcabinet%2Fzuttooishii1.jpg%3F_ex%3D240x240&s=240x240&t=pict",
+    imageLink: "https://hb.afl.rakuten.co.jp/ichiba/54ccf095.cf576e2f.54ccf096.9b1ae275/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgourmetadventure%2Fsr-313%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+    imageAlt: "さとの雪 ずっとおいしい豆腐 300g 12個セット",
+    url: "https://hb.afl.rakuten.co.jp/ichiba/54ccf095.cf576e2f.54ccf096.9b1ae275/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgourmetadventure%2Fsr-313%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+    sourceUrl: "https://item.rakuten.co.jp/gourmetadventure/sr-313/",
+    store: "楽天市場で価格を見る",
+    updated: "価格・商品仕様は2026年6月11日確認"
   },
   {
     label: "まとめ買い",
