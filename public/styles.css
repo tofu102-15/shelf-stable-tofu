@@ -163,6 +163,30 @@ button, input { font: inherit; }
 .source-note, .updated { margin-top: 55px; color: var(--muted); font-size: 12px; }
 .policy-page section p { color: #46544e; }
 
+.formula-box { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin: 28px 0; padding: 24px 28px; color: var(--white); background: var(--green); }
+.formula-box span { font-size: 12px; font-weight: 700; letter-spacing: .08em; }
+.formula-box strong { font-family: var(--serif); font-size: 21px; }
+.stock-table-wrap { margin: 30px 0 0; overflow-x: auto; }
+.stock-table { width: 100%; min-width: 560px; border-collapse: collapse; text-align: center; }
+.stock-table th, .stock-table td { padding: 18px 14px; border: 1px solid var(--line); }
+.stock-table thead th { color: var(--white); background: var(--green-dark); font-size: 13px; }
+.stock-table thead small { color: #c8d5d0; font-weight: 400; }
+.stock-table tbody th { background: var(--cream); }
+.stock-table td strong { color: var(--green); font-family: var(--serif); font-size: 24px; }
+.step-list { padding: 0; margin: 30px 0; list-style: none; }
+.step-list li { display: grid; grid-template-columns: 44px 1fr; gap: 18px; padding: 20px 0; border-bottom: 1px solid var(--line); }
+.step-list li > span { display: grid; place-items: center; width: 38px; height: 38px; color: var(--white); background: var(--green); border-radius: 50%; font-family: var(--serif); }
+.step-list strong { font-size: 15px; }
+.step-list p { margin: 4px 0 0; color: var(--muted); }
+.companion-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.companion-grid > div { padding: 22px; background: var(--cream); }
+.companion-grid p { margin: 5px 0 0; color: var(--muted); font-size: 13px; }
+.article-cta { margin: 70px -80px 0; padding: 50px 80px; color: var(--white); background: var(--green-dark); }
+.article-cta h2 { margin: 0 0 16px; padding: 0; border: 0; color: var(--white); }
+.article-cta p { color: #c9d5d0; }
+.references ul { padding-left: 20px; }
+.references a { color: var(--green); text-decoration: underline; text-underline-offset: 4px; }
+
 @media (max-width: 900px) {
   .site-header { padding: 18px 22px; }
   .menu-button { display: block; }
@@ -184,6 +208,7 @@ button, input { font: inherit; }
   .stockpile-visual { min-height: 260px; }
   .article-grid { grid-template-columns: 1fr; }
   .contact { grid-template-columns: 1fr; gap: 28px; }
+  .article-cta { margin-inline: 0; padding: 42px 36px; }
 }
 
 @media (max-width: 560px) {
@@ -205,6 +230,9 @@ button, input { font: inherit; }
   .site-footer nav { grid-template-columns: 1fr; }
   .site-footer.simple { flex-direction: column; }
   .article-page, .policy-page { padding-inline: 22px; }
+  .formula-box { align-items: flex-start; flex-direction: column; }
+  .companion-grid { grid-template-columns: 1fr; }
+  .article-cta { margin-inline: -22px; padding: 42px 22px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
