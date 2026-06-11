@@ -78,8 +78,8 @@ button, input { font: inherit; }
 .feature-list b { display: block; margin-bottom: 8px; color: var(--soy); font-size: 11px; }
 
 .mascot-profile { display: grid; grid-template-columns: .7fr 1.3fr; align-items: center; gap: 80px; margin-top: -30px; padding-block: 60px; border-block: 1px solid var(--line); }
-.mascot-profile-image { display: flex; justify-content: center; height: 270px; overflow: hidden; }
-.mascot-profile-image img { width: auto; height: 370px; }
+.mascot-profile-image { display: flex; justify-content: center; height: 330px; }
+.mascot-profile-image img { width: auto; height: 100%; object-fit: contain; filter: drop-shadow(0 16px 18px rgba(32,48,42,.12)); }
 .mascot-profile h2 { margin: 0; font-family: var(--serif); font-size: clamp(30px, 3vw, 44px); line-height: 1.5; }
 .mascot-profile p:last-child { max-width: 620px; color: var(--muted); }
 
