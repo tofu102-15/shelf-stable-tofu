@@ -4,12 +4,23 @@
  */
 window.PRODUCTS = [
   {
-    label: "備蓄向け",
-    name: "長期保存タイプ",
-    description: "賞味期限と保管しやすさを重視して選びたい方向け。",
-    points: ["賞味期限：確認後に掲載", "内容量：確認後に掲載"],
-    url: "#shopping",
-    store: "購入先を準備中"
+    label: "しっかり食感",
+    name: "森永乳業 絹とうふ しっかり 253g",
+    description: "常温保存可能な、料理にも使いやすいしっかり食感タイプ。商品仕様と価格は楽天市場の掲載情報を参照しています。",
+    points: [
+      "楽天総合評価：4.82（531件）",
+      "掲載最安値：211円＋送料667円",
+      "発売日：2016年3月1日",
+      "保存方法：常温保存可",
+      "JAN：4902720144049"
+    ],
+    imageUrl: "https://hbb.afl.rakuten.co.jp/hgb/54ca5c43.5ae49a00.54ca5c44.8c31f8b5/?me_id=1261568&item_id=10003087&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fkenkouya-webshop%2Fcabinet%2Fpassco%2F07016566%2Fimgrc0101238771.jpg%3F_ex%3D240x240&s=240x240&t=pict",
+    imageLink: "https://hb.afl.rakuten.co.jp/ichiba/0d3f1a9b.b68cb18c.0d3f1a9c.83f24dde/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F7a097a11ebdabf8dfbb102d51a2bc6d1%2F&link_type=pict&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjEsImFtcCI6ZmFsc2V9",
+    imageAlt: "森永乳業 絹とうふ しっかり 253g",
+    url: "https://hb.afl.rakuten.co.jp/ichiba/0d3f1a9b.b68cb18c.0d3f1a9c.83f24dde/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F7a097a11ebdabf8dfbb102d51a2bc6d1%2F&link_type=pict&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjEsImFtcCI6ZmFsc2V9",
+    sourceUrl: "https://product.rakuten.co.jp/product/-/7a097a11ebdabf8dfbb102d51a2bc6d1/",
+    store: "楽天市場で価格を見る",
+    updated: "価格・評価は2026年6月11日確認"
   },
   {
     label: "日常使い",

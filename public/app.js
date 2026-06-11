@@ -5,12 +5,17 @@ if (grid && Array.isArray(window.PRODUCTS)) {
     <article class="product-card">
       <div class="product-number">0${index + 1}</div>
       <span class="tag">${product.label}</span>
-      <div class="product-placeholder" aria-hidden="true"><span>TOFU</span></div>
+      ${product.imageUrl ? `
+        <a class="product-image" href="${product.imageLink || product.url}" target="_blank" rel="nofollow sponsored noopener">
+          <img src="${product.imageUrl}" alt="${product.imageAlt || product.name}" loading="lazy">
+        </a>
+      ` : `<div class="product-placeholder" aria-hidden="true"><span>TOFU</span></div>`}
       <h3>${product.name}</h3>
       <p>${product.description}</p>
       <ul>${product.points.map(point => `<li>${point}</li>`).join("")}</ul>
+      ${product.updated ? `<small class="product-updated">${product.updated}</small>` : ""}
       <span class="ad-label">広告</span>
-      <a class="product-link" href="${product.url}">${product.store}<span>→</span></a>
+      <a class="product-link" href="${product.url}" target="_blank" rel="nofollow sponsored noopener">${product.store}<span>→</span></a>
     </article>
   `).join("");
 }
