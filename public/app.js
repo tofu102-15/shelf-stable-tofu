@@ -15,7 +15,12 @@ if (grid && Array.isArray(window.PRODUCTS)) {
       <ul>${product.points.map(point => `<li>${point}</li>`).join("")}</ul>
       ${product.updated ? `<small class="product-updated">${product.updated}</small>` : ""}
       <span class="ad-label">広告</span>
-      <a class="product-link" href="${product.url}" target="_blank" rel="nofollow sponsored noopener">${product.store}<span>→</span></a>
+      <div class="product-links">
+        <a class="product-link rakuten" href="${product.url}" target="_blank" rel="nofollow sponsored noopener">${product.store}<span>→</span></a>
+        ${(product.additionalStores || []).map(store => `
+          <a class="product-link ${store.className || ""}" href="${store.url}" target="_blank" rel="nofollow sponsored noopener">${store.name}<span>→</span></a>
+        `).join("")}
+      </div>
     </article>
   `).join("");
 }

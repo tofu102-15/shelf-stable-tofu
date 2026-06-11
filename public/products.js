@@ -21,6 +21,13 @@ window.PRODUCTS = [
     url: "https://hb.afl.rakuten.co.jp/ichiba/54ca5c43.5ae49a00.54ca5c44.8c31f8b5/_RTLink135507?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenkouya-webshop%2F031030%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
     sourceUrl: "https://item.rakuten.co.jp/kenkouya-webshop/031030/",
     store: "楽天市場で価格を見る",
+    additionalStores: [
+      {
+        name: "Amazonで見る",
+        url: "https://amzn.to/4v3zNmF",
+        className: "amazon"
+      }
+    ],
     updated: "価格・評価は2026年6月11日確認"
   },
   {
