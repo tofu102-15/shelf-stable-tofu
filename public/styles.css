@@ -134,6 +134,7 @@ button, input { font: inherit; }
 .contact-submit { width: 100%; min-height: 54px; margin-top: 24px; border: 0; color: var(--white); background: var(--green); font-weight: 700; cursor: pointer; }
 .contact-submit:hover { background: var(--green-dark); }
 .contact-note { margin: 12px 0 0; color: var(--muted); font-size: 10px; line-height: 1.6; }
+.contact-note a { color: var(--green); text-decoration: underline; text-underline-offset: 3px; }
 .form-message { min-height: 25px; color: var(--green) !important; font-size: 12px; }
 
 .site-footer { display: grid; grid-template-columns: 1fr auto; gap: 40px; padding: 70px max(36px, calc((100vw - 1168px) / 2)); color: #d9e1dd; background: #142c23; }
