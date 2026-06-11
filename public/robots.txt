@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shelf-stable-tofu.tofu102-15.workers.dev/sitemap.xml
