@@ -73,9 +73,11 @@ button, input { font: inherit; }
 .intro-article-link > b { flex: 0 0 auto; color: var(--soy); font-size: 22px; font-weight: 400; transition: transform .2s; }
 .intro-article-link:hover { border-color: var(--green); background: #f4f7f2; }
 .intro-article-link:hover > b { transform: translateX(4px); }
-.feature-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
-.feature-list span { padding: 18px 12px; border-top: 1px solid var(--line); font-size: 13px; font-weight: 600; }
-.feature-list b { display: block; margin-bottom: 8px; color: var(--soy); font-size: 11px; }
+.feature-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.feature-list > div { padding: 20px 16px; border-top: 2px solid #d9cfb8; background: #faf8f2; }
+.feature-list b { display: block; margin-bottom: 8px; color: var(--soy); font-size: 12px; }
+.feature-list strong { display: block; color: var(--ink); font-size: 15px; line-height: 1.5; }
+.feature-list p { margin: 9px 0 0; color: var(--muted); font-size: 12px; line-height: 1.75; }
 
 .mascot-profile { display: grid; grid-template-columns: .7fr 1.3fr; align-items: center; gap: 80px; margin-top: -30px; padding-block: 60px; border-block: 1px solid var(--line); }
 .mascot-profile-image { display: flex; justify-content: center; height: 330px; }
