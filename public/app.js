@@ -17,8 +17,6 @@ if (grid && Array.isArray(window.PRODUCTS)) {
       <h3>${product.name}</h3>
       <p>${product.description}</p>
       ${product.recommendation ? `<p class="product-recommendation"><strong>おすすめの理由</strong>${product.recommendation}</p>` : ""}
-      <ul>${product.points.map(point => `<li>${point}</li>`).join("")}</ul>
-      ${product.updated ? `<small class="product-updated">${product.updated}</small>` : ""}
       <span class="ad-label">広告</span>
       <div class="product-links">
         <a class="product-link rakuten" href="${product.url}" target="_blank" rel="nofollow sponsored noopener">${product.store}<span>→</span></a>
