@@ -130,6 +130,9 @@ button, input { font: inherit; }
 .comparison-table .is-recommended span { display: block; margin-bottom: 4px; color: var(--green); font-family: var(--sans); font-size: 12px; font-weight: 700; letter-spacing: .08em; }
 .comparison-table td:nth-child(2) { background: #f5f9f5; }
 .comparison-table td strong { color: var(--green-dark); }
+.comparison-table .official-link { color: var(--green-dark); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.comparison-table .official-link span { font-size: 11px; }
+.comparison-table .official-link:hover { color: var(--green); }
 .comparison-table-note { margin: 12px 0 0; color: var(--muted); font-size: 12px; }
 .demo-note { margin: 24px 0 0; color: var(--muted); font-size: 12px; }
 .expiry-note { margin: 22px 0 0; padding: 18px 20px; border: 1px solid #d8d6cd; border-left: 4px solid var(--soy); color: #5d625f; background: var(--white); box-shadow: 0 8px 20px rgba(49,48,42,.04); font-size: 13px; line-height: 1.8; }
