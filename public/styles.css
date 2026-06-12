@@ -236,6 +236,9 @@ button, input { font: inherit; }
 .recipe-name-list li { padding: 14px 0 14px 24px; border-bottom: 1px solid var(--line); position: relative; }
 .recipe-name-list li::before { content: ""; position: absolute; left: 2px; top: 25px; width: 7px; height: 7px; background: var(--soy); border-radius: 50%; }
 .original-recipes { margin-top: 60px; }
+.original-recipes-intro { display: grid; grid-template-columns: 1fr 150px; align-items: end; gap: 20px; }
+.original-recipes-intro p:last-child { margin-bottom: 0; }
+.original-recipes-mascot { width: 100%; max-width: 150px; }
 .original-recipe-card { display: grid; grid-template-columns: 240px 1fr; gap: 28px; align-items: start; margin: 28px 0; padding: 28px; background: var(--cream); border: 1px solid var(--line); }
 .original-recipe-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 .original-recipe-card h3 { margin: 0 0 8px; font-family: var(--serif); font-size: 19px; }
@@ -265,6 +268,8 @@ button, input { font: inherit; }
   .article-grid { grid-template-columns: 1fr; }
   .article-cta { margin-inline: 0; padding: 42px 36px; }
   .original-recipe-card { grid-template-columns: 1fr; }
+  .original-recipes-intro { grid-template-columns: 1fr; }
+  .original-recipes-mascot { display: none; }
 }
 
 @media (max-width: 560px) {
