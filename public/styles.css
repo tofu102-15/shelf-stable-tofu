@@ -127,7 +127,7 @@ button, input { font: inherit; }
 .article-card > div:last-child { padding: 24px; }
 .article-card h3 { margin: 12px 0; font-family: var(--serif); font-size: 19px; line-height: 1.65; }
 .article-card p, .article-card small { color: var(--muted); font-size: 12px; }
-.article-thumbnail { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-bottom: 1px solid var(--line); background: var(--cream); }
+.article-thumbnail { flex: 0 0 auto; width: 100%; height: auto; border-bottom: 1px solid var(--line); background: var(--cream); }
 
 .contact { max-width: none; padding-inline: max(36px, calc((100vw - 900px) / 2)); background: var(--cream); }
 .contact-details { border: 1px solid var(--line); background: var(--white); }
