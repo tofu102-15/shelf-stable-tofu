@@ -127,12 +127,7 @@ button, input { font: inherit; }
 .article-card > div:last-child { padding: 24px; }
 .article-card h3 { margin: 12px 0; font-family: var(--serif); font-size: 19px; line-height: 1.65; }
 .article-card p, .article-card small { color: var(--muted); font-size: 12px; }
-.article-illustration { display: grid; place-items: center; min-height: 190px; background: var(--cream); overflow: hidden; }
-.article-illustration span { display: grid; place-items: center; width: 86px; height: 68px; border-radius: 3px 3px 18px 18px; color: var(--green); background: #fefefa; box-shadow: 10px 12px 0 #dbcfae; font-family: var(--serif); }
-.pantry { background: #dfe7df; }
-.pantry span { box-shadow: -10px 12px 0 #b5c6b7; }
-.bowl { background: #e9dfcd; }
-.bowl span { border-radius: 50%; box-shadow: 8px 10px 0 #cdbb9e; }
+.article-thumbnail { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-bottom: 1px solid var(--line); background: var(--cream); }
 
 .contact { max-width: none; padding-inline: max(36px, calc((100vw - 900px) / 2)); background: var(--cream); }
 .contact-details { border: 1px solid var(--line); background: var(--white); }
