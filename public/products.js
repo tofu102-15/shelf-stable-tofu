@@ -76,6 +76,7 @@ window.PRODUCTS = [
     url: "https://hb.afl.rakuten.co.jp/ichiba/54cd121f.8a1aa21c.54cd1220.ce25198d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdailymeg%2F100000320%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
     sourceUrl: "https://item.rakuten.co.jp/dailymeg/100000320/",
     store: "楽天市場で価格を見る",
+    noStoreNote: "Amazonでの販売なし",
     updated: "価格・商品仕様は2026年6月11日確認"
   }
 ];

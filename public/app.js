@@ -23,6 +23,7 @@ if (grid && Array.isArray(window.PRODUCTS)) {
         ${(product.additionalStores || []).map(store => `
           <a class="product-link ${store.className || ""}" href="${store.url}" target="_blank" rel="nofollow sponsored noopener">${store.name}<span>→</span></a>
         `).join("")}
+        ${product.noStoreNote ? `<p class="product-link unavailable">${product.noStoreNote}</p>` : ""}
       </div>
     </article>
   `).join("");
