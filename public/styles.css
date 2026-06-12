@@ -99,6 +99,7 @@ button, input { font: inherit; }
 .product-card > p { min-height: 54px; color: var(--muted); font-size: 13px; line-height: 1.7; }
 .product-card ul { padding: 14px 0; margin: 18px 0; border-block: 1px solid #ebe9e2; list-style: none; color: var(--muted); font-size: 12px; }
 .product-card li + li { margin-top: 5px; }
+.product-review-status { display: block; margin: -5px 0 10px; color: #6c746f; font-size: 10px; line-height: 1.6; }
 .product-updated { display: block; margin: -7px 0 14px; color: #7b837f; font-size: 10px; }
 .ad-label { display: inline-block; margin-bottom: 8px; color: #856424; font-size: 10px; font-weight: 700; }
 .product-links { display: grid; gap: 8px; }
@@ -120,7 +121,7 @@ button, input { font: inherit; }
 .big-number { font-family: var(--serif); font-size: 150px; line-height: 1; color: #d7bc7f; }
 .stockpile-visual p { font-weight: 600; letter-spacing: .12em; }
 
-.article-grid { display: grid; grid-template-columns: 1.3fr .85fr .85fr; gap: 20px; }
+.article-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 .article-card { display: flex; flex-direction: column; min-height: 380px; border: 1px solid var(--line); background: var(--white); transition: transform .2s; }
 .article-card:hover { transform: translateY(-4px); }
 .article-card > div:last-child { padding: 24px; }

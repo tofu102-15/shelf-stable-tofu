@@ -13,6 +13,7 @@ if (grid && Array.isArray(window.PRODUCTS)) {
       <h3>${product.name}</h3>
       <p>${product.description}</p>
       <ul>${product.points.map(point => `<li>${point}</li>`).join("")}</ul>
+      <small class="product-review-status">未実食：商品情報・販売ページをもとに紹介しています。</small>
       ${product.updated ? `<small class="product-updated">${product.updated}</small>` : ""}
       <span class="ad-label">広告</span>
       <div class="product-links">
