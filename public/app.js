@@ -1,9 +1,13 @@
 const grid = document.querySelector("#product-grid");
 
 if (grid && Array.isArray(window.PRODUCTS)) {
-  grid.innerHTML = window.PRODUCTS.map((product, index) => `
-    <article class="product-card">
-      <div class="product-number">0${index + 1}</div>
+  const products = [...window.PRODUCTS].sort(
+    (a, b) => Number(Boolean(b.recommended)) - Number(Boolean(a.recommended))
+  );
+
+  grid.innerHTML = products.map(product => `
+    <article class="product-card${product.recommended ? " is-recommended" : ""}">
+      ${product.recommended ? `<span class="recommend-badge">当サイトおすすめ</span>` : ""}
       <span class="tag">${product.label}</span>
       ${product.imageUrl ? `
         <a class="product-image" href="${product.imageLink || product.url}" target="_blank" rel="nofollow sponsored noopener">
@@ -12,6 +16,7 @@ if (grid && Array.isArray(window.PRODUCTS)) {
       ` : `<div class="product-placeholder" aria-hidden="true"><span>TOFU</span></div>`}
       <h3>${product.name}</h3>
       <p>${product.description}</p>
+      ${product.recommendation ? `<p class="product-recommendation"><strong>おすすめの理由</strong>${product.recommendation}</p>` : ""}
       <ul>${product.points.map(point => `<li>${point}</li>`).join("")}</ul>
       <small class="product-review-status">未実食：商品情報・販売ページをもとに紹介しています。</small>
       ${product.updated ? `<small class="product-updated">${product.updated}</small>` : ""}
