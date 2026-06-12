@@ -186,43 +186,48 @@
     </section>
 
     <section id="contact" class="contact section">
-      <div class="contact-heading">
-        <p class="section-label">CONTACT</p>
-        <h2>お問い合わせ</h2>
-        <p>商品情報の訂正、掲載のご相談、サイトへのご意見などをお寄せください。</p>
-      </div>
-      <form class="contact-form" data-contact-form>
-        <div class="form-row">
-          <label for="contact-name">お名前 <span>必須</span></label>
-          <input id="contact-name" name="name" type="text" autocomplete="name" required>
-        </div>
-        <div class="form-row">
-          <label for="contact-email">返信先メールアドレス <span>必須</span></label>
-          <input id="contact-email" name="email" type="email" autocomplete="email" required>
-        </div>
-        <div class="form-row">
-          <label for="contact-type">お問い合わせ種別 <span>必須</span></label>
-          <select id="contact-type" name="type" required>
-            <option value="">選択してください</option>
-            <option>商品情報の訂正</option>
-            <option>商品掲載・広告のご相談</option>
-            <option>サイトへのご意見・ご質問</option>
-            <option>その他</option>
-          </select>
-        </div>
-        <div class="form-row">
-          <label for="contact-message">お問い合わせ内容 <span>必須</span></label>
-          <textarea id="contact-message" name="message" rows="7" required></textarea>
-        </div>
-        <label class="consent-row">
-          <input name="consent" type="checkbox" required>
-          <span><a href="policy.html#privacy" target="_blank">プライバシーポリシー</a>を確認し、入力内容をメールで送信することに同意します。</span>
-        </label>
-        <button class="contact-submit" type="submit">メール作成画面を開く</button>
-        <p class="contact-note">送信ボタンを押すと、お使いのメールアプリが開きます。このサイト内に入力内容は保存されません。</p>
-        <p class="contact-note">メールアプリが開かない場合：<a href="mailto:tofu102.15@gmail.com">tofu102.15@gmail.com</a></p>
-        <p class="form-message" aria-live="polite"></p>
-      </form>
+      <details class="contact-details">
+        <summary class="contact-summary">
+          <span>
+            <small>CONTACT</small>
+            <h2>お問い合わせ</h2>
+            <em>商品情報の訂正、掲載のご相談、サイトへのご意見はこちら</em>
+          </span>
+          <b aria-hidden="true">＋</b>
+        </summary>
+        <form class="contact-form" data-contact-form>
+          <div class="form-row">
+            <label for="contact-name">お名前 <span>必須</span></label>
+            <input id="contact-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="form-row">
+            <label for="contact-email">返信先メールアドレス <span>必須</span></label>
+            <input id="contact-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="form-row">
+            <label for="contact-type">お問い合わせ種別 <span>必須</span></label>
+            <select id="contact-type" name="type" required>
+              <option value="">選択してください</option>
+              <option>商品情報の訂正</option>
+              <option>商品掲載・広告のご相談</option>
+              <option>サイトへのご意見・ご質問</option>
+              <option>その他</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="contact-message">お問い合わせ内容 <span>必須</span></label>
+            <textarea id="contact-message" name="message" rows="7" required></textarea>
+          </div>
+          <label class="consent-row">
+            <input name="consent" type="checkbox" required>
+            <span><a href="policy.html#privacy" target="_blank">プライバシーポリシー</a>を確認し、入力内容をメールで送信することに同意します。</span>
+          </label>
+          <button class="contact-submit" type="submit">メール作成画面を開く</button>
+          <p class="contact-note">送信ボタンを押すと、お使いのメールアプリが開きます。このサイト内に入力内容は保存されません。</p>
+          <p class="contact-note">メールアプリが開かない場合：<a href="mailto:tofu102.15@gmail.com">tofu102.15@gmail.com</a></p>
+          <p class="form-message" aria-live="polite"></p>
+        </form>
+      </details>
     </section>
   </main>
 

@@ -134,9 +134,19 @@ button, input { font: inherit; }
 .bowl { background: #e9dfcd; }
 .bowl span { border-radius: 50%; box-shadow: 8px 10px 0 #cdbb9e; }
 
-.contact { display: grid; grid-template-columns: .75fr 1.25fr; gap: 80px; max-width: none; padding-inline: max(36px, calc((100vw - 1000px) / 2)); background: var(--cream); }
-.contact-heading > p:last-child { max-width: 360px; color: var(--muted); }
-.contact-form { padding: 36px; background: var(--white); border: 1px solid var(--line); text-align: left; }
+.contact { max-width: none; padding-inline: max(36px, calc((100vw - 900px) / 2)); background: var(--cream); }
+.contact-details { border: 1px solid var(--line); background: var(--white); }
+.contact-summary { display: flex; align-items: center; justify-content: space-between; gap: 30px; padding: 26px 30px; cursor: pointer; list-style: none; }
+.contact-summary::-webkit-details-marker { display: none; }
+.contact-summary small { display: block; margin-bottom: 4px; color: var(--green); font-size: 10px; font-style: normal; font-weight: 700; letter-spacing: .18em; }
+.contact-summary h2 { margin: 0; font-family: var(--serif); font-size: 24px; line-height: 1.4; }
+.contact-summary em { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; font-style: normal; }
+.contact-summary > b { flex: 0 0 auto; display: grid; place-items: center; width: 38px; height: 38px; border: 1px solid var(--line); border-radius: 50%; color: var(--green); font-size: 22px; font-weight: 400; transition: transform .2s; }
+.contact-summary:hover { background: #faf8f1; }
+.contact-summary:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+.contact-details[open] .contact-summary > b { transform: rotate(45deg); }
+.contact-details[open] .contact-summary { border-bottom: 1px solid var(--line); }
+.contact-form { padding: 36px; text-align: left; }
 .form-row { display: grid; gap: 8px; margin-bottom: 20px; }
 .form-row label { font-size: 13px; font-weight: 700; }
 .form-row label span { margin-left: 6px; color: #9a602c; font-size: 10px; }
@@ -252,7 +262,6 @@ button, input { font: inherit; }
   .stockpile-card { padding: 48px 30px; }
   .stockpile-visual { min-height: 260px; }
   .article-grid { grid-template-columns: 1fr; }
-  .contact { grid-template-columns: 1fr; gap: 28px; }
   .article-cta { margin-inline: 0; padding: 42px 36px; }
   .original-recipe-preview { margin-inline: 0; }
 }
@@ -271,6 +280,9 @@ button, input { font: inherit; }
   .section-heading { align-items: flex-start; flex-direction: column; }
   .stockpile { margin-inline: 0; }
   .big-number { font-size: 110px; }
+  .contact { padding-inline: 18px; }
+  .contact-summary { padding: 22px 18px; }
+  .contact-summary em { max-width: 230px; }
   .contact-form { padding: 24px 18px; }
   .site-footer { grid-template-columns: 1fr; }
   .site-footer nav { grid-template-columns: 1fr; }
