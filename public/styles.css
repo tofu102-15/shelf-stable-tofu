@@ -219,6 +219,7 @@ button, input { font: inherit; }
 .catalog-specs dt { color: var(--muted); }
 .catalog-specs dd { margin: 0; font-weight: 600; }
 .catalog-card .ad-label { margin-top: auto; }
+.catalog-store-note { display: flex; align-items: center; justify-content: center; min-height: 42px; padding: 8px 12px; border: 1px solid var(--line); color: var(--muted); background: #f6f4ee; font-size: 11px; text-align: center; }
 .catalog-updated { margin: 14px 0 0; color: var(--muted); font-size: 11px; }
 .catalog-footnote { margin: 28px 0 0; color: var(--muted); font-size: 12px; }
 .catalog-back { margin-top: 36px; text-align: center; }
