@@ -78,6 +78,10 @@ button, input { font: inherit; }
 .feature-list b { display: block; margin-bottom: 8px; color: var(--soy); font-size: 12px; }
 .feature-list strong { display: block; color: var(--ink); font-size: 15px; line-height: 1.5; }
 .feature-list p { margin: 9px 0 0; color: var(--muted); font-size: 12px; line-height: 1.75; }
+.search-intent-box { margin-top: 28px; padding: 22px; border: 1px solid #d8d2c3; background: var(--white); }
+.search-intent-box strong { display: block; margin-bottom: 12px; font-family: var(--serif); font-size: 18px; }
+.search-intent-box div { display: flex; flex-wrap: wrap; gap: 10px; }
+.search-intent-box a { padding: 8px 12px; border: 1px solid var(--line); color: var(--green); background: #faf8f1; font-size: 12px; font-weight: 700; }
 
 .mascot-profile { display: grid; grid-template-columns: .7fr 1.3fr; align-items: center; gap: 80px; margin-top: -30px; padding-block: 60px; border-block: 1px solid var(--line); }
 .mascot-profile-image { display: flex; justify-content: center; height: 330px; }
@@ -207,6 +211,10 @@ button, input { font: inherit; }
 .catalog-notice { margin-bottom: 44px; padding: 20px 24px; border: 1px solid #d8d2c3; border-left: 4px solid var(--soy); background: #faf7ef; }
 .catalog-notice strong { display: block; margin-bottom: 5px; }
 .catalog-notice p { margin: 0; color: var(--muted); font-size: 13px; }
+.catalog-guide { display: grid; grid-template-columns: 1fr 1.35fr; gap: 52px; margin-bottom: 44px; padding: 34px; border: 1px solid var(--line); background: #faf8f1; }
+.catalog-guide h2 { margin: 0; font-family: var(--serif); font-size: clamp(24px, 3vw, 34px); line-height: 1.55; }
+.catalog-guide-list p { margin: 0 0 14px; color: var(--muted); font-size: 14px; line-height: 2; }
+.catalog-guide-list p:last-child { margin-bottom: 0; }
 .catalog-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 #satonoyuki-longlife { order: 1; }
 #morinaga-firm { order: 2; }
@@ -333,6 +341,7 @@ button, input { font: inherit; }
   .global-nav.is-open { display: flex; }
   .catalog-grid { grid-template-columns: 1fr; }
   .catalog-card h2 { min-height: 0; }
+  .catalog-guide { grid-template-columns: 1fr; gap: 20px; }
   .catalog-extra-card { grid-template-columns: 1fr; }
   .catalog-extra-image { min-height: 330px; }
   .hero { grid-template-columns: 1fr; }
